@@ -1,0 +1,43 @@
+*{
+  background-color: #4caf50;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  color:white;
+  font-size:60px;
+}
+
+img {
+  width:75%;
+  height: 400px;
+  border-radius: 10px;
+  border:10px solid white;
+}
+
+.carrusel-content{
+  display:none;
+}
+
+.carrusel-content.active{
+  display: block;
+}
+
+.control {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  border:1px solid white;
+  border-radius: 50%;
+}
+
+.previus, .next {
+  color:white;
+  margin:10px 30px;
+}
+
+.control:hover, .previus:hover, .next:hover {
+  background-color: red;
+  border:1px solid red;
+}
